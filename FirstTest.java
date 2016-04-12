@@ -15,7 +15,7 @@ public class FirstTest extends TestCase{
     private By image = By.xpath("//img[@alt='Logo Tesla Motors.svg']");
     private By discription = By.xpath("//div[@id='mw-content-text']/table/tbody/tr[2]/td/p");
 
-    @BeforeClass
+    @Before
     public void setUp() throws Exception {
         driver.get ("https://ru.wikipedia.org");}
 
